@@ -1,10 +1,10 @@
 package com.cchen26.jsptesting.service;
 
-import com.cchen26.jsptesting.model.User;
+import com.cchen26.jsptesting.model.GroupUser;
 
-public interface UserService {
-    void registerUser(User user);
-    User loginUser(String username, String password);
-    User getUserById(int userId);
-    User getUserByUsername(String username);
+public interface GroupUserService {
+    void registerUser(GroupUser user);
+    GroupUser loginUser(String emailAddress, String password);
+    //User getUserById(int userId);
+    //User getUserByUsername(String username);
 }
